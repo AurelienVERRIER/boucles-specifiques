@@ -11,12 +11,23 @@
 
 // 02 - Map Names
 
-const longNames = [{firstName: "Bond", lastName:"James Bond"},{firstName: "Roger", lastName: "Rabbit"}]
+// const longNames = [{firstName: "Bond", lastName:"James Bond"},{firstName: "Roger", lastName: "Rabbit"}]
 
-const shortNames = longNames.map((longNames, i) => {
-  return name =`${longNames.firstName} ${longNames.lastName}`
+// const shortNames = longNames.map((longNames, i) => {
+//   return name =`${longNames.firstName} ${longNames.lastName}`
 
  
+// })
+// console.log(longNames)
+// console.log(shortNames)
+
+
+// 03 - Filter Numbers
+
+const array = [1, "toto", 34, "javascript", 8]
+
+const numbers = array.filter((array, i) => {
+  return Number(array)
+  // Ou return parseInt(array)
 })
-console.log(longNames)
-console.log(shortNames)
+console.log(numbers)
