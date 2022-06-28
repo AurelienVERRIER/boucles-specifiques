@@ -24,10 +24,21 @@
 
 // 03 - Filter Numbers
 
-const array = [1, "toto", 34, "javascript", 8]
+// const array = [1, "toto", 34, "javascript", 8]
 
-const numbers = array.filter((array, i) => {
-  return Number(array)
-  // Ou return parseInt(array)
+// const numbers = array.filter((array, i) => {
+//   return Number(array)
+//   // Ou return parseInt(array)
+// })
+// console.log(numbers)
+
+
+// 04 - Filter Even
+
+const numbers = [1,2,3,4,5,6,7,8]
+
+const even = numbers.filter((numbers, i) => {
+  return numbers % 2 === 0
 })
-console.log(numbers)
+
+console.log(even)
