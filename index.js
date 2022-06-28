@@ -94,16 +94,16 @@ const soldOut = chocolates.map((chocolate, i) => {
   //   name: chocolate.name,
   //   flavor: chocolate.flavor,
   //   status: "Sold Out"
-//   }
+  // }
 })
 
 
 console.log(soldOut)
 
-// const array = [1, "toto", 34, "javascript", 8]
+// 06 - 
 
-// const numbers = array.filter((array, i) => {
-//   return Number(array)
-//   // Ou return parseInt(array)
-// })
-// console.log(numbers)
+const pie = cakes.find((cake, i) => {
+  return cake.name === "pie"
+})
+
+console.log(pie)
